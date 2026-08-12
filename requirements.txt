@@ -1,0 +1,41 @@
+# =============================================================================
+# Student Dropout Survival Analysis (Bayes 26D) — Python dependencies
+# Results were produced on Python 3.13.5 (Notebooks 1, 2 and 4) and Python
+# 3.12.12 (Notebook 3). Use Python 3.12–3.13.
+# Install with:  pip install -r requirements.txt
+# See SETUP.md for full environment instructions.
+# Versions are pinned for reproducibility; relax == to >= if you hit a
+# platform wheel issue.
+# =============================================================================
+
+# --- Core data handling ---
+numpy==2.2.6
+pandas==2.3.3
+
+# --- Discrete-time survival model (Phase 4) ---
+statsmodels==0.14.6          # logistic hazard model on person-period data
+
+# --- Machine learning (Phase 2 classification, Phase 3 clustering) ---
+scikit-learn==1.7.2
+imbalanced-learn==0.14.2     # SMOTE and other imbalance handling
+scipy==1.15.3                # scientific routines (also a sklearn dependency)
+joblib==1.5.3                # persisting trained models to models/
+
+# --- Visualisation (figures saved to outputs/figures/) ---
+matplotlib==3.10.9
+seaborn==0.13.2
+
+# --- File I/O: Parquet handover between notebooks (data/processed/) ---
+pyarrow==24.0.0
+
+# --- Notebook environment ---
+jupyterlab==4.6.0
+ipykernel==7.3.0             # lets VS Code / Jupyter run this env as a kernel
+
+# =============================================================================
+# NOT USED — continuous-time survival methods (Kaplan-Meier curves and Cox
+# proportional hazards) are out of scope: dropout in this dataset occurs at four
+# discrete checkpoints, so Phase 4 fits a discrete-time hazard model via
+# logistic regression on person-period data (statsmodels, above) instead.
+# =============================================================================
+# lifelines==0.30.0
