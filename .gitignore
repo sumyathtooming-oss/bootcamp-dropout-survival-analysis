@@ -1,1 +1,32 @@
+# ---- Data: never commit ----
+# Anonymised client records. The source file and everything derived from it
+# contain student-level rows and must stay out of the repository.
+Bayes 26D.csv
+data/
 
+# ---- Regenerable model artefacts ----
+models/
+*.pkl
+*.joblib
+
+# ---- Secrets ----
+.env
+.envrc
+
+# ---- Notebook and OS clutter ----
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+~$*
+*.tmp
+
+# ---- Environments ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Editor ----
+.vscode/
+.idea/
