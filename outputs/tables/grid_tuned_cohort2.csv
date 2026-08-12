@@ -1,0 +1,6 @@
+Model,none,weights
+Logistic Regression,0.364,0.513
+Decision Tree,0.924,0.925
+Random Forest,0.958,0.969
+Gradient Boosting,0.98,0.98
+SVM (RBF),0.909,0.892

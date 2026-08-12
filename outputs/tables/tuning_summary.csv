@@ -1,0 +1,5 @@
+Cohort,Model,Method,Default CV F1,Tuned CV F1,Gain,Candidates
+Cohort 1,Gradient Boosting,none,0.957,0.975,0.0185,288
+Cohort 2,Gradient Boosting,none,0.924,0.98,0.0559,288
+Cohort 3,Gradient Boosting,none,0.974,0.986,0.012,288
+Cohort 4,Random Forest,weights,0.593,0.608,0.0153,240

@@ -1,0 +1,5 @@
+Cohort,Model,Method,F1 (seed 42),F1 (seed 7),F1 (seed 123),Spread
+Cohort 1,Gradient Boosting,none,0.976,0.967,0.971,0.008
+Cohort 2,Gradient Boosting,none,0.977,0.983,0.979,0.005
+Cohort 3,Gradient Boosting,none,0.989,0.987,0.984,0.005
+Cohort 4,Random Forest,weights,0.634,0.601,0.605,0.033

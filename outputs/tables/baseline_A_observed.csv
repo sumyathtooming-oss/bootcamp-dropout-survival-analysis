@@ -1,0 +1,11 @@
+Model,Method,F1,ROC-AUC,PR-AUC,Precision,Recall
+SVM (RBF),weights,0.677,0.78,0.674,0.605,0.77
+Decision Tree,weights,0.666,0.774,0.673,0.63,0.707
+Gradient Boosting,none,0.638,0.804,0.728,0.697,0.588
+Gradient Boosting,weights,0.638,0.804,0.728,0.697,0.588
+Decision Tree,none,0.623,0.765,0.664,0.67,0.583
+Random Forest,none,0.62,0.771,0.69,0.636,0.604
+Random Forest,weights,0.616,0.771,0.686,0.635,0.597
+SVM (RBF),none,0.609,0.773,0.691,0.69,0.545
+Logistic Regression,weights,0.545,0.606,0.457,0.479,0.634
+Logistic Regression,none,0.283,0.609,0.464,0.468,0.203

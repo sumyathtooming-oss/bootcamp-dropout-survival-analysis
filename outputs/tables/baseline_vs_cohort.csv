@@ -1,0 +1,4 @@
+Approach,Best model,Test F1,Identifies timing,Risk profiles
+"Binary, observed-for-all",SVM (RBF) / weights,0.677,No,1
+"Binary, imputed",Random Forest / none,0.868,No,1
+Cohort-specific,per checkpoint,per checkpoint,Yes,4

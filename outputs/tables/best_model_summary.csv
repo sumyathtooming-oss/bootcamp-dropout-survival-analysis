@@ -1,0 +1,5 @@
+Cohort,n students,Drop rate,Best model,Method,Tuned?,CV F1,Accuracy,Precision,Recall,F1,ROC-AUC,PR-AUC
+Cohort 1,18724,6.5%,Gradient Boosting,none,tuned,0.975,0.997,0.96,0.992,0.976,1.0,0.994
+Cohort 2,17512,13.2%,Gradient Boosting,none,tuned,0.98,0.994,0.968,0.987,0.977,1.0,0.998
+Cohort 3,15207,10.4%,Gradient Boosting,none,tuned,0.986,0.998,0.987,0.99,0.989,1.0,1.0
+Cohort 4,13632,18.0%,Random Forest,weights,tuned,0.608,0.887,0.764,0.542,0.634,0.915,0.764

@@ -1,0 +1,5 @@
+,Logistic Regression,Decision Tree,Random Forest,Gradient Boosting,SVM (RBF)
+Cohort 1,0.299,0.351,0.429,0.437,0.252
+Cohort 2,0.049,0.087,0.154,0.16,0.163
+Cohort 3,0.481,0.377,0.43,0.546,0.445
+Cohort 4,0.003,0.046,0.121,0.073,0.029

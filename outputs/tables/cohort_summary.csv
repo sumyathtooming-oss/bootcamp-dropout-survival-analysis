@@ -1,0 +1,5 @@
+Cohort,Checkpoint,Students,Features (with eng.),Features (no eng.),Survive,Drop,Drop Rate (%),Missing Values,Target Column
+1,After Test 1,18724,8,5,17512,1212,6.5,0,survives_phase_1
+2,After Test 2,17512,11,8,15207,2305,13.2,0,survives_phase_2
+3,After Test 3,15207,13,10,13632,1575,10.4,0,survives_phase_3
+4,Certificate,13632,17,14,11177,2455,18.0,0,survives_to_certificate

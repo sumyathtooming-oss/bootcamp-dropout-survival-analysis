@@ -1,0 +1,5 @@
+Cohort,Model,Method,F1,ROC-AUC,PR-AUC,Precision,Recall,CV F1,CV F1 std
+Cohort 1,Random Forest,weights,0.626,0.971,0.634,0.502,0.831,0.607,0.011
+Cohort 2,Random Forest,weights,0.818,0.983,0.888,0.803,0.833,0.82,0.011
+Cohort 3,Random Forest,weights,0.652,0.95,0.654,0.623,0.683,0.663,0.013
+Cohort 4,Random Forest,weights,0.583,0.89,0.688,0.523,0.658,0.585,0.015
